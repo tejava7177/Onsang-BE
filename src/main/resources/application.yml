@@ -1,10 +1,14 @@
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   datasource:
     url: jdbc:h2:tcp://localhost/~/onsang
     username: sa
     password:
     driver-class-name: org.h2.Driver
   jpa:
+    databasePlatform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: create
     properties:
@@ -12,10 +16,6 @@ spring:
         show_sql: true
         format_sql: true
 
-logging.level:
-  org.hibernate.SQL: debug
-
-#  spring:
-#    mvc:
-#      pathmatch:
-#        matching-strategy: ant_path_matcher
+logging:
+  level:
+    org.hibernate.SQL: debug
