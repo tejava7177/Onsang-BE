@@ -1,7 +1,7 @@
 # application-prod.yml
 spring:
   datasource:
-    url:  jdbc:mariadb://${TODO_MYSQL_HOST}:${TODO_MYSQL_PORT}/${TODO_DATA_BASE_NAME}?useSSL=false
+    url:  jdbc:mariadb://${TODO_MYSQL_HOST}:${TODO_MYSQL_PORT}/${TODO_DATA_BASE_NAME}
     #jdbc:mysql://localhost:3306/test
     username: ${TODO_MYSQL_USER_NAME}
     password: ${TODO_MYSQL_PASSWORD}
