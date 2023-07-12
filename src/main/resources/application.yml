@@ -1,0 +1,18 @@
+# database 연동 설정
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://onsang-database.c3xaixv3tjgv.ap-northeast-2.rds.amazonaws.com:3306/onsang?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: admin
+    password: onsang1234
+
+  # spring data jpa 설정
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
