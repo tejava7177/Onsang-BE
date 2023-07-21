@@ -1,6 +1,8 @@
 # Onsang-BE
 Onsang 상담 사이트 프로젝트의 BE를 개발합니다.
 
+http://ec2-13-125-102-105.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui.html#/counselor-controller
+
 ![image](https://github.com/online-Sangdam/Onsang-BE/assets/76902448/f82ad6d7-97cd-4ce5-9ba4-ce660164d31e)
 
 
