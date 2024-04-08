@@ -6,7 +6,7 @@ import com.onsang.onsangbe.service.CounselorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+// 임의의 각주를 하나 생성합니다.
 import java.net.URI;
 import java.util.List;
 
